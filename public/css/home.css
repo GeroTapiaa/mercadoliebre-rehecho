@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto";
+    font-size: var(--textoCuerpo);
+}
+/*header*/
+.burger-menu i{
+    border: solid 2px blue;
+    
+    text-align: center;
+    
+}
+
+/* main*/
+.home__main__section h3{
+    font-size: var(--textoTitulares);
+}
+p.precios{
+    font-size: var(--precios);
+}
+p.descuentos{
+    font-size: var(--descuentos);
+}
+.home__main__section h5{
+    font-size: var(--descripciones);
+}
+
+
+/*footer*/
+.home__footer{
+    text-align: center;
+}
+.home__footer__section--article div{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--colorCeleste);
+}

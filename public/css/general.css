@@ -1,0 +1,20 @@
+:root {
+
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #d6d6d6;
+    --colorVerde: #39b54a;
+
+    --textoCuerpo: 12px;
+    --textoTitulares: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones : 16px;
+
+}
+
+header{
+    background-color: var(--colorAmarillo);
+}
