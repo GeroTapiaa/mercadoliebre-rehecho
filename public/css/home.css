@@ -3,11 +3,30 @@ body{
     font-size: var(--textoCuerpo);
 }
 /*header*/
-.burger-menu i{
-    border: solid 2px blue;
-    
+
+.home__header p{
     text-align: center;
+}
+.home__header ul li a{
+    list-style: none;
+    color: black;
     
+}
+.home__header ul{
+    padding: 0;
+    
+}
+
+.burger-menu button{
+    background-color: var(--colorCeleste);
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 4px;
+    
+}
+.burger-menu{
+    text-align: center;
 }
 
 /* main*/
@@ -28,6 +47,9 @@ p.descuentos{
 /*footer*/
 .home__footer{
     text-align: center;
+}
+.title-5{
+    text-align: left;
 }
 .home__footer__section--article div{
     font-size: 2em;
