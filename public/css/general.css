@@ -18,3 +18,8 @@
 header{
     background-color: var(--colorAmarillo);
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
