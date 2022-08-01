@@ -13,7 +13,10 @@ nav ul li {
     display: none;
 }
 .header__logo{
-    width: 43%;
+    width: 32%;
+}
+.form__input--home{
+    width: 66%;
 }
 
 .header__section1 {
@@ -30,7 +33,7 @@ div.burger-menu {
 }
 
 /* main*/
-.home__main img{
+.container--banner{
     display: none;
 }
 .home__main {

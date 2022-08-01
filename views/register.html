@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/919dfe1f4e.js" crossorigin="anonymous"></script>
+    <title>Mercado Liebre</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__section1">
+            <div class="header__logo">
+                <a href="/"><img src="/images/logo-mercado-liebre.svg" alt=""></a>
+            </div>
+            <div>
+                <form action="">
+                    <input type="text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</p>
+            </div>
+        </section>
+        <nav class="home__header__menu">
+            <ul>
+                <li><a href="Ofertas">Ofertas</a></li>
+                <li><a href="Tiendas Oficiales">Tiendas oficiales</a></li>
+                <li><a href="Vender">Vender</a></li>
+                <li><a href="Ayuda">Ayuda</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="/register">crea tu cuenta <i class="fa-solid fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="Mis Compras">Mis Compras <i class="fa-solid fa-basket-shopping-simple"></i></a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <button><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <main class="main__register">
+        <section class="main__register--section">
+            <h1>Registrate</h1>
+            <hr>
+            <form class="form--register" action="">
+                <div class="form__box">
+                    <input class="form__input" placeholder="Nombre y apellido :" type="text" id="nombre">
+                </div>
+                <div class="form__box">
+                    <input class="form__input" placeholder="Contraseña :" type="text" id="password">
+                </div>
+                <div class="form__box">
+                    <input class="form__input" placeholder="Confirma contraseña :" type="text" id="confirm password">
+                </div>
+                <div class="form__box">
+                    <input class="form__input" placeholder="Fecha de nacimiento :" type="text" id="fecha">
+                </div>
+                <div class="form__box">                    
+                    <input class="form__input" placeholder="Domicilio :" type="text" id="domicilio">
+                </div>
+                <div class="form__box">
+                    <input class="form__input" placeholder="Nombre de usuario :" type="text" id="name user">
+                    
+                </div>
+                
+                <div class="form__box--profile">  
+                    <h2>Perfil de usuario</h2> 
+                    <div><input class="form__input--profile" type="radio" id="profile" name="vendedor" >
+                    <label for="">Comprador</label>
+                    <input class="form__input--profile" type="radio" id="profile" name="vendedor" >
+                    <label for="">Vendedor</label></div>
+                </div>
+                <h3>¿Que te interesa?</h3>
+                <div class="form__checkbox">
+                    
+                    <div><input type="checkbox">
+                    <label class="label--checkbox" for="">Electro</label></div>
+                    <div><input type="checkbox">
+                    <label class="label--checkbox" for="">Moda</label></div>
+                    <div><input type="checkbox">
+                    <label class="label--checkbox" for="">Hogar</label></div>
+                    <div><input type="checkbox">
+                    <label class="label--checkbox" for="">Jugueteria</label></div>
+                    <div><input type="checkbox">
+                    <label class="label--checkbox"  for="">Vida sana</label></div>
+                </div>
+                <div class="form__box--butons">
+                    <button><a href="">Cancelar</a></button>
+                    <button type="submit">Registrate</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
